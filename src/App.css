@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-image: url("https://vayupay.com/wp-content/uploads/bg-green-wave.png");
+  background-repeat: no-repeat;
 }
 
 .App-logo {
