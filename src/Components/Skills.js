@@ -1,9 +1,12 @@
 import React from 'react';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Skills = () => {
     return (
         <div className='container mx-auto my-44'>
-            <h1 className="text-5xl text-center">My Skills</h1>
+            <AnimationOnScroll animateIn="animate__fadeInDown">
+                <h1 className="text-5xl text-center">My Skills</h1>
+            </AnimationOnScroll>
             <div className="grid grid-cols-2 gap-4 mt-12">
 
                 <div className='px-8'>
