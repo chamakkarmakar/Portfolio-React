@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaUserGraduate } from "react-icons/fa";
+import { FaGithub, FaUserGraduate } from "react-icons/fa";
 import { GrAchievement } from "react-icons/gr";
 import { HiHome, HiMenu, HiOutlineX } from "react-icons/hi";
 import { MdContactPhone } from "react-icons/md";
@@ -13,7 +13,7 @@ const NavBar = () => {
                 <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <Link to='/'
                         className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap   text-gray-900">
-                        Chamak Karmakar
+                        <FaGithub className='w-5 h-5'></FaGithub>
                     </Link>
                     <button
                         className="text-gray-900 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
