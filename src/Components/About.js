@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className='container mx-auto mt-44'>
             <div className="flex">
-                <div className=''>
+                <div className='hidden md:block'>
                     <img src="https://cdn.dribbble.com/users/2131993/screenshots/15628402/media/7bb0d27e44d8c2eff47276ae86bfd6a3.png?compress=1&resize=400x300" alt="" />
                 </div>
                 <div className='w-1/2 mx-auto'>

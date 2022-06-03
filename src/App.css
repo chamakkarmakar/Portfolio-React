@@ -1,6 +1,8 @@
 .App {
-  background-image: url("https://vayupay.com/wp-content/uploads/bg-green-wave.png");
-  background-repeat: repeat-y;
+  /* background-image: url("https://vayupay.com/wp-content/uploads/bg-green-wave.png"); */
+  background-image: url("https://media.istockphoto.com/vectors/abstract-white-wave-background-vector-id1224767093?k=20&m=1224767093&s=612x612&w=0&h=DTUIj6sqUQgA5YRPaX4Srfawr625_unPXcK9ZAgLt5A=");
+  background-repeat: repeat;
+  width: 100%;
 }
 
 .App-logo {

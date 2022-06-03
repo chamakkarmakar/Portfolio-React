@@ -2,6 +2,7 @@ import "animate.css/animate.min.css";
 import './App.css';
 import About from "./Components/About";
 import Banner from './Components/Banner';
+import Contact from "./Components/Contact";
 import NavBar from './Components/NavBar';
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
@@ -14,6 +15,8 @@ function App() {
       <About></About>
       <Skills></Skills>
       <Projects></Projects>
+      <Contact></Contact>
+
     </div>
   );
 }
