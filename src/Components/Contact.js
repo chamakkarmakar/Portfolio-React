@@ -1,5 +1,6 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Contact = () => {
     const form = useRef();
@@ -7,8 +8,11 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm("service_teha4ci","template_k26c2o2", form.current,"rkq3oyYpMYFFgkIuT")
-        .then((result) => {
-            console.log(result.text);
+            .then((result) => {
+                if (result.status === 200) {
+                    toast.success("sent email successfully")
+            }
+            console.log(result);
         }, (error) => {
             console.log(error.text);
         });
@@ -40,6 +44,10 @@ const Contact = () => {
                         Send</button>
                 </form>
             </div>
+            <Toaster
+                position="bottom-center"
+                reverseOrder={false}
+            />
         </div>
     );
 };

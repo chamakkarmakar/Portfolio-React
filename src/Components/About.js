@@ -1,6 +1,5 @@
 import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import { Link } from 'react-router-dom';
 import chamak from '../img/chamak.png';
 
 
@@ -24,7 +23,7 @@ const About = () => {
                             coding and latest technology. Love to do brainstorming, can spend time
                             analyzing requirements or problem and bring a solution!</p>
                         <br />
-                        <Link to='' target="_blank" className='px-5 text-white font-bold rounded-2xl py-3 bg-rose-600 hover:bg-rose-700 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg active:bg-rose-800 active:shadow-lg transition duration-150 ease-in-out focus:outline-none focus:ring-0'>Download Resume</Link>
+                        <a href='https://drive.google.com/file/d/1z4p7lFtJUAZwYvq1tNc0vc9ds_of52bi/view?usp=sharing' target="_blank" rel='noreferrer' className='px-5 text-white font-bold rounded-2xl py-3 bg-rose-600 hover:bg-rose-700 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg active:bg-rose-800 active:shadow-lg transition duration-150 ease-in-out focus:outline-none focus:ring-0'>Download Resume</a>
 
                     </AnimationOnScroll>
                 </div>

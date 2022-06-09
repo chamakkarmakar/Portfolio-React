@@ -12,10 +12,10 @@ const Skills = () => {
                 <div className='px-8'>
                     <div className='flex justify-between'>
                     <span className="font-semibold">HTML</span>
-                        <span > 90%</span>
+                        <span > 95%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full">
-                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "90%" }}></div>
+                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "95%" }}></div>
                     </div>
                 </div>
 
@@ -32,40 +32,40 @@ const Skills = () => {
                 <div className='px-8'>
                     <div className='flex justify-between'>
                     <span className="font-semibold">JavaScript</span>
-                        <span > 90%</span>
+                        <span > 75%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full">
-                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "90%" }}></div>
+                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "75%" }}></div>
                     </div>
                 </div>
 
                 <div className='px-8'>
                     <div className='flex justify-between'>
                     <span className="font-semibold">React</span>
-                        <span > 90%</span>
+                        <span > 70%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full">
-                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "90%" }}></div>
+                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "70%" }}></div>
                     </div>
                 </div>
 
                 <div className='px-8'>
                     <div className='flex justify-between'>
                     <span className="font-semibold">Node.JS</span>
-                        <span > 90%</span>
+                        <span > 50%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full">
-                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "90%" }}></div>
+                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "50%" }}></div>
                     </div>
                 </div>
 
                 <div className='px-8'>
                     <div className='flex justify-between'>
                     <span className="font-semibold">Express.JS</span>
-                        <span > 90%</span>
+                        <span > 50%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full">
-                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "90%" }}></div>
+                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "50%" }}></div>
                     </div>
                 </div>
 
