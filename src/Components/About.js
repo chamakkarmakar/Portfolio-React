@@ -1,11 +1,10 @@
-import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import chamak from '../img/chamak.png';
 
 
 const About = () => {
     return (
-        <div className='container mx-auto mt-44'>
+        <div id='about' className='container mx-auto mt-44'>
             <div className="flex md:flex-row flex-col">
                 <div className='flex justify-center items-center'>
                     <img className='rounded-full' src={chamak} alt="" width="50%" height="50%" />

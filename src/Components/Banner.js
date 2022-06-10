@@ -1,4 +1,3 @@
-import React from 'react';
 import TypeAnimation from 'react-type-animation';
 const Banner = () => {
     return (
@@ -20,7 +19,7 @@ const Banner = () => {
                             repeat={Infinity}
                         />
                     </h4>
-                    <a href='https://drive.google.com/file/d/1z4p7lFtJUAZwYvq1tNc0vc9ds_of52bi/view?usp=sharing' target="_blank" rel='noreferrer' className='px-5 text-white font-bold rounded-2xl py-3 bg-rose-600 hover:bg-rose-700 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg active:bg-rose-800 active:shadow-lg transition duration-150 ease-in-out focus:outline-none focus:ring-0'>Download Resume</a>
+                    <a href='https://drive.google.com/file/d/1z4p7lFtJUAZwYvq1tNc0vc9ds_of52bi/view?usp=sharing' target="_blank" rel='noreferrer' className='px-5 text-white font-bold rounded-2xl py-3 bg-rose-600 hover:bg-rose-700 mt-3 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg active:bg-rose-800 active:shadow-lg transition duration-150 ease-in-out focus:outline-none focus:ring-0'>Download Resume</a>
                 </div>
                
             </div>

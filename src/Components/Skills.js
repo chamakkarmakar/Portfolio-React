@@ -1,4 +1,3 @@
-import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Skills = () => {
@@ -31,11 +30,31 @@ const Skills = () => {
 
                 <div className='px-8'>
                     <div className='flex justify-between'>
-                    <span className="font-semibold">JavaScript</span>
-                        <span > 75%</span>
+                    <span className="font-semibold">Bootstrap</span>
+                        <span > 90%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full">
-                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "75%" }}></div>
+                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "90%" }}></div>
+                    </div>
+                </div>
+
+                <div className='px-8'>
+                    <div className='flex justify-between'>
+                    <span className="font-semibold">Tailwind</span>
+                        <span > 95%</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full">
+                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "95%" }}></div>
+                    </div>
+                </div>
+
+                <div className='px-8'>
+                    <div className='flex justify-between'>
+                    <span className="font-semibold">JavaScript</span>
+                        <span > 80%</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full">
+                        <div className="bg-rose-400 text-xs font-medium text-blue-100 text-center h-3  leading-none rounded-l-full" style={{ width: "80%" }}></div>
                     </div>
                 </div>
 

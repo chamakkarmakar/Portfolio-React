@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
-import { FaGithub, FaUserGraduate } from "react-icons/fa";
-import { GrAchievement } from "react-icons/gr";
-import { HiHome, HiMenu, HiOutlineX } from "react-icons/hi";
-import { MdContactPhone } from "react-icons/md";
+import { useState } from 'react';
+import { FaGithub } from "react-icons/fa";
+import { HiMenu, HiOutlineX } from "react-icons/hi";
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -36,30 +34,37 @@ const NavBar = () => {
                         <li className="nav-item">
                             <Link to='/home'
                                 className="px-5 py-2 flex items-center text-xs   font-bold leading-snug text-gray-900 transition ease-in-out delay-150   hover:scale-125 duration-700">
-                               <HiHome className='w-5 h-5 '></HiHome>
+                               HOME
                             </Link>
                         </li>
 
-
-                        <li className="nav-item">
-                            <Link to='/products' 
-                                className="px-5 py-2 flex items-center text-xs   font-bold leading-snug text-gray-900 transition ease-in-out delay-150   hover:scale-125 duration-700" >
-                                <GrAchievement className='w-5 h-5 '></GrAchievement>
-                            </Link>
-                        </li>
                         <li className="nav-item">
                             <Link to='/about'
                                 className="px-5 py-2 flex items-center text-xs   font-bold leading-snug text-gray-900 transition ease-in-out delay-150   hover:scale-125 duration-700">
-                               <FaUserGraduate className='w-5 h-5 '></FaUserGraduate>
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to='/'
-                                className="px-5 py-2 flex items-center text-xs   font-bold leading-snug text-gray-900 transition ease-in-out delay-150   hover:scale-125 duration-700">
-                                <MdContactPhone className='w-5 h-5 '></MdContactPhone>
+                               ABOUT
                             </Link>
                         </li>
 
+                        <li className="nav-item">
+                            <Link to='/project' 
+                                className="px-5 py-2 flex items-center text-xs   font-bold leading-snug text-gray-900 transition ease-in-out delay-150   hover:scale-125 duration-700" >
+                                PROJECTS
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link to='/blog'
+                                className="px-5 py-2 flex items-center text-xs   font-bold leading-snug text-gray-900 transition ease-in-out delay-150   hover:scale-125 duration-700">
+                                BLOG
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link to='/contact'
+                                className="px-5 py-2 flex items-center text-xs font-bold leading-snug text-gray-900 transition ease-in-out delay-150   hover:scale-125 duration-700">
+                                CONTACT
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
